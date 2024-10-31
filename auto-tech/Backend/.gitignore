@@ -1,0 +1,65 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.pyd
+
+# Entornos virtuales
+venv/
+.env/
+env/
+*.env
+
+# Archivos de configuración que podrían contener credenciales
+config.yaml
+config.json
+*.ini
+*.cfg
+
+# Base de datos
+*.db
+*.sqlite3
+db.sqlite3
+
+# Archivos de sesión o de caché
+*.log
+*.pid
+*.swp
+.cache/
+.pyo
+.DS_Store
+*.bak
+
+# Configuración de PostgreSQL
+pgdata/
+.pgpass
+
+# Configuración de FastAPI y Uvicorn
+*.sock
+*.lock
+
+# Archivos específicos de IDEs y editores
+.vscode/
+.idea/
+
+# Archivos de test y cobertura
+htmlcov/
+*.cover
+*.coverage
+.cache/
+.nox/
+.tox/
+.coverage.*
+.cache/
+.pytest_cache/
+coverage.xml
+nosetests.xml
+test_output/
+
+# Git y archivos específicos de sistema operativo
+*.~undo-tree~
+tags
+.vscode/
+*.sublime*
+Desktop.ini
+Thumbs.db
